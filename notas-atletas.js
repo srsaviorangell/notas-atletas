@@ -38,12 +38,12 @@ console.log(atletas)
     atleta.mediaDasNotas = mediaDasNotas.toFixed(2); //aqui vamos empurrar no objeto o array media para sair no console
  })
 
-
- atletas.forEach(atleta =>{
-    console.log(atleta.nome, atleta.mediaDasNotas)
- 
- })
-
+atletas.forEach(atleta => {
+  console.log(`Atleta: ${atleta.nome}`);
+  console.log(`Notas: ${atleta.notas}`);
+  console.log(`Média: ${atleta.mediaDasNotas}`);
+  console.log("----------------------");
+});
 
 
 
