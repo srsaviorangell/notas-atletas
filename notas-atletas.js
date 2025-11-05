@@ -40,8 +40,8 @@ console.log(atletas)
 
 atletas.forEach(atleta => {
   console.log(`Atleta: ${atleta.nome}`);
-  console.log(`Notas: ${atleta.notas}`);
-  console.log(`Média: ${atleta.mediaDasNotas}`);
+  console.log(`Notas Obtidas: ${atleta.notas}`);
+  console.log(`Média Válida: ${atleta.mediaDasNotas}`);
   console.log("----------------------");
 });
 
